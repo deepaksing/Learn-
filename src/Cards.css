@@ -1,0 +1,32 @@
+.maincard {
+    /* border-right: 1px dashed rgba(0, 0, 0, 0.116);
+    border-left: 1px dashed rgba(0, 0, 0, 0.116); */
+    line-height: 1.4em;
+    height: 100%;
+    margin: 10px;
+    flex-wrap: wrap;
+    background-color: rgba(245, 245, 245, 0.078);
+    border-radius: 10px;
+    box-shadow: rgb(2 12 27 / 70%) 0px 10px 30px -15px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.maincard:hover {
+    cursor: pointer;
+}
+.cardhead {
+    font-size: 24px;
+    font-weight: 600;
+    /* margin: 20px; */
+    /* margin-top: 40px; */
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.content {
+    margin: 16px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: rgb(59, 57, 57);
+    padding-bottom: 20px;
+}

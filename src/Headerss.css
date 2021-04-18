@@ -1,0 +1,97 @@
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-right: 12%;
+    margin-left: 10%;
+    overflow: hidden;
+}
+
+
+.logoname {
+    font-size: 25px;
+    font-weight: 700;
+    
+
+}
+
+.home {
+    color: #5920df;
+    transition: 400ms all ease-in-out;
+}
+
+.hot {
+    color: #e74a1a;
+    transition: 400ms all ease-in-out;
+}
+
+.contact {
+    color: #e0224b;
+    transition: 400ms all ease-in-out;
+}
+
+
+a {
+    margin-left: 20px;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 300ms all ease-in-out;
+}
+a:hover {
+    border-bottom: 3px dashed rgb(255, 145, 0);
+    transition: 300ms all ease-in-out;
+    padding-bottom:5px;
+    cursor: pointer;
+}
+
+
+.dark {
+    width: 15px;
+    height: 15px;
+    background-color: wheat;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    z-index: 20;
+    transition: 400ms all ease-in-out;
+    box-shadow: 0 10px 35px rgb(0 0 0 / 10%);
+    
+}
+
+.light {
+    border: 2px solid rgba(4, 11, 41, 0.356);
+    background-color: rgba(26, 26, 53, 0.897);
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    box-shadow: 0 10px 35px rgb(0 0 0 / 10%);
+    z-index: 20;
+    box-shadow: rgb(2 12 27 / 70%) 0px 10px 30px -15px;
+    transition: 400ms all ease-in-out;
+}
+
+.dark:hover, .light:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .heading {
+        font-size: 14px;
+        overflow: hidden;
+        margin: 0;
+        margin-top: 10px;
+    }
+    a {
+        margin: 0;
+        position: relative;
+        top: 30%;
+        padding: 10px;
+    }
+    .dark {
+        margin-top: 2.5%;
+    }
+    .light {
+        margin-top: 2.5%;
+    }
+}

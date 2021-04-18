@@ -1,0 +1,35 @@
+.post {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.manc {
+    border: 2px solid transparent;
+    box-shadow: rgb(2 12 27 / 70%) 0px 10px 30px -15px;
+    padding: 3%;
+    color: #202735;
+    background-color: rgba(245, 245, 245, 0.819);
+    border-radius: 14px;
+}
+
+.topic {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.mcon {
+    margin-top: 14%;
+    color: rgba(39, 37, 37, 0.863);
+}
+
+.lsi {
+    width: 25%;
+    margin-right: 3%;
+    
+}
+.rsi {
+    width: 25%;
+    margin-left: 3%;
+}
+
